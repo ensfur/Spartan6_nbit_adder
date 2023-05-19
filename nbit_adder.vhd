@@ -10,9 +10,9 @@ N	: integer := 2
 port (
 a_i		: in std_logic_vector (N-1 downto 0);
 b_i		: in std_logic_vector (N-1 downto 0);
-carry_i	: in std_logic;
-sum_o	: out std_logic_vector (N-1 downto 0);
-carry_o	: out std_logic
+carry_i		: in std_logic;
+sum_o		: out std_logic_vector (N-1 downto 0);
+carry_o		: out std_logic
 );
 end nbit_adder;
 

@@ -3,7 +3,7 @@ NET "SW[0]" LOC = "C3";	// button 1 pull up
 NET "SW[1]" LOC = "D3";	// button 2 pull up
 NET "SW[2]" LOC = "E4";	// button 3 pull up
 NET "SW[3]" LOC = "E3";	// button 4 pull up
-NET "BTNL"     LOC = "L3";	// reset
+NET "BTNL"  LOC = "L3";	// reset
 
 
 // LEDS

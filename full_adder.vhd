@@ -26,7 +26,7 @@ component half_adder is
 end component half_adder;
 
 -- SIGNALS
-signal first_sum		: std_logic := '0';
+signal first_sum	: std_logic := '0';
 signal first_carry	: std_logic := '0';
 signal second_carry	: std_logic := '0';
 
@@ -37,7 +37,7 @@ first_half_adder : half_adder
 port map( 
 	a_i 		=> a_i,
 	b_i 		=> b_i,
-	sum_o 	=> first_sum,
+	sum_o 		=> first_sum,
 	carry_o 	=> first_carry
 );
 
@@ -45,7 +45,7 @@ second_half_adder : half_adder
 port map( 
 	a_i 		=> first_sum,
 	b_i 		=> carry_i,
-	sum_o 	=> sum_o,
+	sum_o 		=> sum_o,
 	carry_o 	=> second_carry
 );
 

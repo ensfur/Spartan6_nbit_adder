@@ -16,6 +16,6 @@ end half_adder;
 
 architecture Behavioral of half_adder is
 	begin
-		sum_o		<= A_i xor B_i;
+		sum_o	<= A_i xor B_i;
 		carry_o	<= A_i and B_i;
 end Behavioral;
